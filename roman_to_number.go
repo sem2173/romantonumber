@@ -9,11 +9,11 @@ func RomanToNumber (roman string) (number int) {
     
 
     if roman == "I"+"I"{
-        number = 1+1
+        number = dico["I"] + dico["I"]
     }
 
     if roman == "I"+"I"+"I"{
-     number = 1+1+1
+     number = dico["I"] + dico["I"] + dico["I"]
     }
 
      
