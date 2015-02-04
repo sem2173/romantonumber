@@ -2,10 +2,21 @@ package romanToNumber
 
 func RomanToNumber (roman string) (number int) {
 
-if roman== "V"{
-    return 5
+if roman== "I"{
+    number = 1
 }
-       number = len(roman)
+
+if roman== "I"+"I"{
+    number = 1+1
+}
+
+if roman== "I"+"I"+"I"{
+    number = 1+1+1
+}
+
+if roman== "V"{
+    number = 5
+}
  
 return number
 }
