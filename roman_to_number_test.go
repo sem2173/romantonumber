@@ -11,6 +11,7 @@ func TestRomanToNumber(t *testing.T) {
     {input: "II", expected: 2},
     {input: "III", expected: 3},
     {input: "V", expected: 5},
+    {input: "IV", expected: 4},
 
     
   }
