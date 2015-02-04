@@ -2,14 +2,14 @@ package romanToNumber
 
 func RomanToNumber (roman string) (number int) {
   if roman =="II"{
-    number = 2
+    number = len(roman)
     }
        if roman == "III"{
-        number = 3
+        number = len(roman)
     } 
 
     if  roman == "I"{    
-        number = 1
+        number = len(roman)
     }
 return number
 }
